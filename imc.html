@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+        <nav>
+            <div id="menu-toggle" class="menu-icon">&#9776;</div>
+            <ul id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="alimentacao.html">Alimentação</a></li>
+                <li><a href="exercicios.html">Exercícios</a></li>
+                <li><a href="saude-mental.html">Saúde Mental</a></li>
+                <li><a href="imc.html">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Calcule seu IMC</h2>
+            <input type="number" id="weight" placeholder="Peso (kg)">
+            <input type="number" id="height" placeholder="Altura (m)">
+            <button onclick="calculateIMC()">Calcular IMC</button>
+            <p id="imc-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Cuidados Pessoais. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

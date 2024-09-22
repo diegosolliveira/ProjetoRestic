@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Mental</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Saúde Mental</h1>
+        <nav>
+            <div id="menu-toggle" class="menu-icon">&#9776;</div>
+            <ul id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="alimentacao.html">Alimentação</a></li>
+                <li><a href="exercicios.html">Exercícios</a></li>
+                <li><a href="saude-mental.html">Saúde Mental</a></li>
+                <li><a href="imc.html">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cuidados com a Saúde Mental</h2>
+            <p>Técnicas de meditação e dicas para o gerenciamento de estresse.</p>
+
+            <div class="card-container">
+                <div class="card" onclick="toggleDetails(this)">
+                    <h3>Meditação da Respiração</h3>
+                    <img src="img/respiracao.png" alt="">
+                    <div class="details">
+                        <p>Sente-se em um lugar tranquilo e concentre-se na sua respiração. Inspire profundamente pelo nariz, segure por um momento e expire lentamente pela boca. Faça isso por 5-10 minutos.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleDetails(this)">
+                    <h3>Meditação Guiada</h3>
+                    <img src="img/guiada.jpg" alt="">
+                    <div class="details">
+                        <p>Use aplicativos ou vídeos de meditação guiada que oferecem orientações sobre visualizações ou relaxamento. Isso pode ajudar a manter o foco e reduzir a ansiedade.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleDetails(this)">
+                    <h3>Meditação Mindfulness</h3>
+                    <img src="img/mindfulness.jpg" alt="">
+                    <div class="details">
+                        <p>Pratique a atenção plena, observando seus pensamentos e sensações sem julgá-los. Concentre-se no momento presente e reconheça suas emoções, permitindo-se soltá-las.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Cuidados Pessoais. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
